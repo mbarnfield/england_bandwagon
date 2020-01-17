@@ -1,0 +1,12 @@
+name: england_bandwagon
+title: england_bandwagon
+username:
+account: mbarnfield
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1671169
+bundleId: 2735906
+url: https://mbarnfield.shinyapps.io/england_bandwagon/
+when: 1579276828.73545
+asMultiple: FALSE
+asStatic: FALSE
