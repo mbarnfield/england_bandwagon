@@ -5,8 +5,8 @@ account: mbarnfield
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1671169
-bundleId: 2735906
+bundleId: 2750964
 url: https://mbarnfield.shinyapps.io/england_bandwagon/
-when: 1579276828.73545
+when: 1579872133.52074
 asMultiple: FALSE
 asStatic: FALSE

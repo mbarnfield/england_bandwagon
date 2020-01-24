@@ -322,16 +322,16 @@ server <- function(input, output) {
                switched_from_local_dynamic = sum(switched_from_local_dynamic)))
     
     
-    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
     
     
-    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
     
     col_no$col_no <- sample(ncol(profiles[1, ]))
   })
@@ -473,15 +473,15 @@ server <- function(input, output) {
                switched_from_local_dynamic = sum(switched_from_local_dynamic)))
     
     
-    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
     
-    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
     
     col_no$col_no <- sample(ncol(profiles[1, ]))
   })
@@ -624,16 +624,16 @@ server <- function(input, output) {
                switched_from_local_dynamic = sum(switched_from_local_dynamic)))
     
     
-    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
 
     
-    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
 
     col_no$col_no <- sample(ncol(profiles[1, ]))
   })
@@ -775,16 +775,16 @@ server <- function(input, output) {
                switched_from_local_dynamic = sum(switched_from_local_dynamic)))
     
     
-    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
 
     
-    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
 
     col_no$col_no <- sample(ncol(profiles[1, ]))
   })
@@ -871,16 +871,16 @@ server <- function(input, output) {
                switched_from_local_dynamic = sum(switched_from_local_dynamic)))
     
     
-    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_hidden$data1 <- experiment[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data2 <- experiment[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data3 <- experiment[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_hidden$data4 <- experiment[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
 
     
-    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
-    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4,]
+    rv_shown$data1 <- profiles[row_num_1 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data2 <- profiles[row_num_2 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data3 <- profiles[row_num_3 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
+    rv_shown$data4 <- profiles[row_num_4 + input$one*4 + input$two*4 + input$three*4 + input$four*4 + input$abstain*4,]
 
     col_no$col_no <- sample(ncol(profiles[1, ]))
   })
@@ -893,15 +893,15 @@ server <- function(input, output) {
           TRUE ~ "Static national not emphasised"
         )),
         dn_emphasised = as_factor(case_when(
-          sn_emphasised == 1 ~ "Dynamic national emphasised",
+          dn_emphasised == 1 ~ "Dynamic national emphasised",
           TRUE ~ "Dynamic national not emphasised"
         )),
         sl_emphasised = as_factor(case_when(
-          sn_emphasised == 1 ~ "Static local emphasised",
+          sl_emphasised == 1 ~ "Static local emphasised",
           TRUE ~ "Static local not emphasised"
         )),
         dl_emphasised = as_factor(case_when(
-          sn_emphasised == 1 ~ "Dynamic local emphasised",
+          dl_emphasised == 1 ~ "Dynamic local emphasised",
           TRUE ~ "Dynamic local not emphasised"
         )),
         party = as_factor(party),
@@ -1178,12 +1178,8 @@ server <- function(input, output) {
     t(rv_shown$data4[,as.numeric(col_no$col_no)])},
     options = list(dom = 't', bSort=FALSE), colnames = c("Candidate Four", ""), rownames = rep(""))
   
-  output$cand5 <- DT::renderDataTable({
-    t(rv_shown$data5[,as.numeric(col_no$col_no)])},
-    options = list(dom = 't', bSort=FALSE), colnames = c("Candidate Five", ""), rownames = rep(""))
-  
   output$choice <- DT::renderDataTable({
-    choice$choice
+    choice$choice %>% arrange(desc(contest_no))
   })
   
   output$downloadData <- downloadHandler(
@@ -1212,7 +1208,7 @@ server <- function(input, output) {
                               size = 0.2, height = 0, na.rm = TRUE,
                               position = ggstance::position_dodgev(height = 0.75)) +
       labs(x = "Change: Pr(Chosen Candidate)", y = "") +
-      theme_bw()
+      theme_minimal()
   })
   
   output$switch_plot <- renderPlot({
@@ -1223,7 +1219,7 @@ server <- function(input, output) {
                               size = 0.2, height = 0, na.rm = TRUE,
                               position = ggstance::position_dodgev(height = 0.75)) +
       labs(x = "Change: Pr(Chosen Candidate)", y = "") +
-      theme_bw()
+      theme_minimal()
   })
 }
 
